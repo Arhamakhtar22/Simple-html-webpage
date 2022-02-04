@@ -1,0 +1,33 @@
+<link href="app.css" type="text/css" rel="stylesheet">
+<title>Arham Shoaib</title>
+<body style="background-color:lightgrey">
+<h1>Driver Information</h1>
+<div class="form-center">
+<form action="/actionpage.py">
+    <input type="text" placeholder="Name" name="name" />
+    <input type="text" placeholder="Address" name="address" />
+    <input type="number" placeholder="Phone" name="phone" />
+    <input type="email" placeholder="Email" name="email" /> 
+    <input type="password" placeholder="Password" id="pass" name="password" minlength="8" required>
+    <input type="date" placeholder="dob" name="dob" />
+
+    Preferred Contact Method:
+    <br>
+    <input type="checkbox" name="Email" value="yes">Email
+    <br>
+    <input type="checkbox" name="Call" value="yes">Call
+    <br>
+    <input type="checkbox" name="Text" value="yes">Text
+    <br>
+
+    Do you have a drivers license?
+    <br>
+    <input type="radio" name="agree" value="yes">Yes
+    <br>
+    <input type="radio" name="agree" value="no">No
+    <br>
+    <button class="btn" type="submit" value="Submit">Submit</button>
+</form>
+</div>
+</body>
+
